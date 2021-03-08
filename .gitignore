@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/layout-tabler
+layout-tabler.so
+layout-tabler.dylib
+layout-tabler.dll
+layout-tabler.a
+layout-tabler.lib
+layout-tabler-test-*
+*.exe
+*.o
+*.obj
+*.lst
