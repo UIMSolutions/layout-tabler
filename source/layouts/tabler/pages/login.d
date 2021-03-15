@@ -25,7 +25,7 @@ static this() {
         .styles(``);
       }
 
-    override string content() { 
+    override string content(string[string] someParameters = null) { 
       return ``;
     }
   });

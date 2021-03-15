@@ -26,7 +26,7 @@ static this() {
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content() { 
+    override string content(string[string] someParameters = null) { 
 
       return `
 <div class="container-xl">

@@ -42,7 +42,7 @@ static this() {
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content() { 
+    override string content(string[string] someParameters = null) { 
 
       auto tile(string image, string name, string job, string role) {
         return 

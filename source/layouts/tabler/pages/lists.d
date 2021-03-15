@@ -26,7 +26,7 @@ static this() {
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content() { 
+    override string content(string[string] someParameters = null) { 
 
       auto item1(bool checked, string link, string image, string link2, string title, string text) {
         return 

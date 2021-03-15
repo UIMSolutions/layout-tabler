@@ -570,7 +570,7 @@ static this() {
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content() { 
+    override string content(string[string] someParameters = null) { 
       /* client.connect("127.0.0.1");
       database = client.getDatabase("demo");	
 
