@@ -1,4 +1,4 @@
-module source.layouts.tabler.layouts.layout;
+module layouts.tabler.layouts.layout;
 
 import layouts.tabler;
 
@@ -130,7 +130,7 @@ H5Div(["navbar-expand-md"],
                   .link(["active"], ["href":rootPath~"blank"], "Blank page")
                   .link(["href":rootPath~"buttons"], "Buttons")
                   .link(["href":rootPath~"cards"], "Cards")
-                  .link(["href":rootPath~"cards-masonry"], "Cards Masonry")
+                  .link(["href":rootPath~"masonry"], "Cards Masonry")
                   .link(["href":rootPath~"colors"], "Colors")
                   .link(["href":rootPath~"dropdowns"], "Dropdowns")
                   .link(["href":rootPath~"icons"], "Icons")

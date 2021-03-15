@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.navlinkicon;
+﻿module layouts.tabler.components.navs.navlinkicon;
 
 import layouts.tabler;
 

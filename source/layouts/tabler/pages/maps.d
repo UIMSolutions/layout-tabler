@@ -1,9 +1,9 @@
-module source.layouts.tabler.pages.acoordion;
+module layouts.tabler.pages.maps;
 
 import layouts.tabler;
 
 static this() {   
-    layoutTabler.pages("accordion", new class DH5AppPage {
+    layoutTabler.pages("maps", new class DH5AppPage {
       this() { super(); 
         this
         .created(DateTime(2018, 6, 10, 10, 10, 0))
@@ -33,7 +33,7 @@ static this() {
   <div class="row align-items-center">
     <div class="col">
       <h2 class="page-title">
-        Empty page
+       maps
       </h2>
     </div>
   </div>

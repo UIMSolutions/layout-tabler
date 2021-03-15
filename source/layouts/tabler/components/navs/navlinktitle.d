@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.navlinktitle;
+﻿module layouts.tabler.components.navs.navlinktitle;
 
 import layouts.tabler;
 
