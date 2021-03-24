@@ -1,6 +1,9 @@
 module source.layouts.tabler.pages.cards;
 
+@safe:
 import layouts.tabler;
+
+@safe:
 
 static this() {   
     layoutTabler.pages("cards", new class DH5AppPage {

@@ -1,6 +1,9 @@
 module layouts.tabler.layouts.layout;
 
+@safe:
 import layouts.tabler;
+
+@safe:
 
 static this() {
   layoutTabler.layout(new class DH5AppLayout {

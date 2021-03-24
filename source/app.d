@@ -1,4 +1,6 @@
 import vibe.vibe;
+
+@safe:
 import layouts.tabler;
 
 void main() {

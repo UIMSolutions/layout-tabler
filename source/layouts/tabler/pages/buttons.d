@@ -1,5 +1,6 @@
 module source.layouts.tabler.pages.buttons;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

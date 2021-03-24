@@ -1,5 +1,6 @@
 module layouts.tabler.pages.music;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

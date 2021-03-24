@@ -1,8 +1,9 @@
 ﻿module layouts.tabler.components.navs.navlinkicon;
 
+@safe:
 import layouts.tabler;
 
-class DBS5NavLinkIcon : DBS5Obj {
+@safe: class DBS5NavLinkIcon : DBS5Obj {
 	mixin(H5This!("span", ["nav-link-icon"]));
 }
 mixin(H5Calls!"BS5NavLinkIcon");

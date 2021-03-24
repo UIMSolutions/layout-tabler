@@ -1,6 +1,9 @@
 module layouts.tabler.pages.dropdowns;
 
+@safe:
 import layouts.tabler;
+
+@safe:
 
 static this() {   
     layoutTabler.pages("dropdowns", new class DH5AppPage {

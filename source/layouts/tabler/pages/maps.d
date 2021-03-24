@@ -1,5 +1,6 @@
 module layouts.tabler.pages.maps;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

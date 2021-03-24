@@ -1,5 +1,6 @@
 module layouts.tabler.pages.index;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

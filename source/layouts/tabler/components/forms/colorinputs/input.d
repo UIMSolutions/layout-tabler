@@ -1,8 +1,9 @@
 ﻿module layouts.tabler.components.forms.colorinputs.input;
 
+@safe:
 import layouts.tabler;
 
-class DBS5FormColorinputInput : DBS5Obj {
+@safe: class DBS5FormColorinputInput : DBS5Obj {
 	mixin(H5This!("input", ["form-colorinput-input"], null, true));
 }
 mixin(H5Calls!"BS5FormColorinputInput");

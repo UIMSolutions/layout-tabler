@@ -1,5 +1,6 @@
 module layouts.tabler.pages.tiles;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

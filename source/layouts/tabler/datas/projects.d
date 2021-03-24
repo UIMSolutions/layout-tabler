@@ -1,5 +1,6 @@
 module layouts.tabler.datas.projects;
 
+@safe:
 import layouts.tabler;
 
 static this() {

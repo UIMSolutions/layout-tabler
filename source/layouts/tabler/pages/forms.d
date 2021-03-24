@@ -1,5 +1,6 @@
 module source.layouts.tabler.pages.forms;
 
+@safe:
 import layouts.tabler;
 
 static this() {   
@@ -1371,21 +1372,25 @@ BS5Row(
                   H5Div(["mb-3"], 
                     BS5FormLabel("Advanced tags input"),
                     BS5Select("select-tags-advanced", ["type":"text", "placeholder":"Select a date", "value":""])
-                      .option(["value":"HTML"], "HTML")
-                      .option(["value":"JavaScript"], "JavaScript")
-                      .option(["value":"CSS"], "CSS")
-                      .option(["value":"jQuery"], "jQuery")
-                      .option(["value":"Bootstrap"], "Bootstrap")
-                      .option(["value":"Ruby"], "Ruby")
-                      .option(["value":"Python"], "Python")
+                      .options([
+                        ["HTML": "HTML"],
+                        ["JavaScript", "JavaScript"],
+                        ["CSS", "CSS"],
+                        ["jQuery", "jQuery"],
+                        ["Bootstrap", "Bootstrap"],
+                        ["Ruby", "Ruby"],
+                        ["Python", "Python"]
+                      ])
                   ),
                   H5Div(["mb-3"], 
                     BS5FormLabel("Advanced select"),
                     BS5Select("select-users", ["type":"text", "placeholder":"Select a date", "value":""])
-                      .option(["value":"1"], "Chuck Tesla")
-                      .option(["value":"2"], "Elon Musk")
-                      .option(["value":"3"], "Paweł Kuna")
-                      .option(["value":"4"], "Nikola Tesla")
+                      .options([
+                        ["1", "Chuck Tesla"],
+                        ["2", "Elon Musk"], 
+                        ["3", "Paweł Kuna"],
+                        ["4", "Nikola Tesla"]
+                      ])
                   ),
                   H5Div(["mb-3"], 
                     BS5FormLabel("Select with avatars"),

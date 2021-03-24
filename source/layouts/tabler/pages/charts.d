@@ -1,5 +1,6 @@
 module layouts.tabler.pages.charts;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

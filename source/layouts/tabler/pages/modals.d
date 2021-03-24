@@ -1,5 +1,6 @@
 module source.layouts.tabler.pages.modals;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

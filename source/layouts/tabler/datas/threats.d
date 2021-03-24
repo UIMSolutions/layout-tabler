@@ -1,5 +1,6 @@
 module layouts.tabler.datas.threats;
 
+@safe:
 import layouts.tabler;
 
 static this() {

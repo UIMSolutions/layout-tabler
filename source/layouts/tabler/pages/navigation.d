@@ -1,5 +1,6 @@
 module layouts.tabler.pages.navigation;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

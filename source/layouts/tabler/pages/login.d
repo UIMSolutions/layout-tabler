@@ -1,5 +1,6 @@
 module layouts.tabler.pages.login;
 
+@safe:
 import layouts.tabler;
 
 static this() {

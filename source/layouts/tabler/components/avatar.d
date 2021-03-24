@@ -1,8 +1,9 @@
 ﻿module layouts.tabler.components.avatar;
 
+@safe:
 import layouts.tabler;
 
-class DBS5Avatar : DBS5Obj {
+@safe: class DBS5Avatar : DBS5Obj {
 	mixin(H5This!("span", ["avatar"]));
 }
 mixin(H5Calls!"BS5Avatar");

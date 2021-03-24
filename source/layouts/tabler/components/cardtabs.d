@@ -1,8 +1,9 @@
 ﻿module layouts.tabler.components.cardtabs;
 
+@safe:
 import layouts.tabler;
 
-class DBS5CardTabs : DBS5Obj {
+@safe: class DBS5CardTabs : DBS5Obj {
 	mixin(H5This!("div", ["card-tabs"]));
 }
 mixin(H5Calls!"BS5CardTabs");

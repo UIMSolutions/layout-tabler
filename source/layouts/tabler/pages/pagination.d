@@ -1,5 +1,6 @@
 module layouts.tabler.pages.pagination;
 
+@safe:
 import layouts.tabler;
 
 static this() {   

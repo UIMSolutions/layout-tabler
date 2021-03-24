@@ -1,8 +1,9 @@
 ﻿module layouts.tabler.components.empties.action;
 
+@safe:
 import layouts.tabler;
 
-class DBS5EmptyAction : DBS5Obj {
+@safe: class DBS5EmptyAction : DBS5Obj {
 	mixin(H5This!("div", ["empty-action"]));
 }
 mixin(H5Calls!"BS5EmptyAction");

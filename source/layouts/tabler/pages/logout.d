@@ -1,5 +1,6 @@
 module layouts.tabler.pages.logout;
 
+@safe:
 import layouts.tabler;
 
 static this() {
