@@ -29,12 +29,12 @@ static this() {
 var msnry = new Masonry( '#cards', {
   percentPosition: true
 });`)
-        .title("UIM!ECM - Dokumentierte Sicherheit");
+        .title("UIM!Tabler - Dokumentierte Sicherheit");
       }
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content(string[string] someParameters = null) { 
+    override string content(STRINGAA reqParameters) { 
 
 auto card1(string bodyText) {
   return 

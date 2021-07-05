@@ -38,12 +38,12 @@ static this() {
     border-radius: 0.125rem;
     box-shadow: 0 0 0 .0625rem rgba(0,0,0,0.1),0 .125rem .5rem 0 rgba(0,0,0,0.1);
 }`)
-        .title("UIM!ECM - Dokumentierte Sicherheit");
+        .title("UIM!Tabler - Dokumentierte Sicherheit");
       }
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content(string[string] someParameters = null) { 
+    override string content(STRINGAA reqParameters) { 
 
       auto tile(string image, string name, string job, string role) {
         return 

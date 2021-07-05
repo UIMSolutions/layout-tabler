@@ -9,5 +9,5 @@ import layouts.tabler;
 mixin(H5Calls!"BS5EmptySubtitle");
 
 unittest {
-	assert(Assert(BSEmptySubtitle, `<p class="empty-subtitle"></p>`));
+	assert(Assert(BS5EmptySubtitle, `<p class="empty-subtitle"></p>`));
 }

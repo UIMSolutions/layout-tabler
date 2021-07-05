@@ -26,7 +26,7 @@ static this() {
         .styles(``);
       }
 
-    override string content(string[string] someParameters = null) { 
+    override string content(STRINGAA reqParameters) { 
       return ``;
     }
   });

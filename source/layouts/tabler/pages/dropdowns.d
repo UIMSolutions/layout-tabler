@@ -24,12 +24,12 @@ static this() {
           "bannerTitle":"Willkommen",
           "bannerImage": "/img/apps/ecm/logo_640x640.png"
         ])
-        .title("UIM!ECM - Dokumentierte Sicherheit");
+        .title("UIM!Tabler - Dokumentierte Sicherheit");
       }
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content(string[string] someParameters = null) { 
+    override string content(STRINGAA reqParameters) { 
       auto dropdownMenu1 = BS5DropdownMenu(["dropdown-menu-demo"])
           .header("Dropdown header")
           .link(["href":"#"], `<svg xmlns="http://www.w3.org/2000/svg" class="icon dropdown-item-icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12h4l3 8l4 -16l3 8h4" /></svg>`~

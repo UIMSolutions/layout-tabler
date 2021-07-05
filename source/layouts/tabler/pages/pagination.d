@@ -22,12 +22,12 @@ static this() {
           "bannerTitle":"Willkommen",
           "bannerImage": "/img/apps/ecm/logo_640x640.png"
         ])
-        .title("UIM!ECM - Dokumentierte Sicherheit");
+        .title("UIM!Tabler - Dokumentierte Sicherheit");
       }
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content(string[string] someParameters = null) { 
+    override string content(STRINGAA reqParameters) { 
 
       return `
 <div class="container-xl">
@@ -52,13 +52,13 @@ static this() {
                         prev
                       </a>
                     </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">
+                    BS5PageItem.link(["href":"#"], "1")
+                    BS5PageItem(["active"]).link(["href":"#"], "2"),
+                    BS5PageItem.link(["href":"#"], "3"),
+                    BS5PageItem.link(["href":"#"], "4"),
+                    BS5PageItem.link(["href":"#"], "5")
+                    BS5PageItem.leni((
+                      <a class="page-link" href="#"], "
                         next <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 6 15 12 9 18" /></svg>
                       </a>
                     </li>
@@ -69,13 +69,13 @@ static this() {
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="15 6 9 12 15 18" /></svg>
                       </a>
                     </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item active"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">4</a></li>
-                    <li class="page-item"><a class="page-link" href="#">5</a></li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">
+                    BS5PageItem.link(["href":"#"], "1</a></li>
+                    <li class="page-item active"><a class="page-link" href="#"], "2</a></li>
+                    BS5PageItem.link(["href":"#"], "3</a></li>
+                    BS5PageItem.link(["href":"#"], "4</a></li>
+                    BS5PageItem.link(["href":"#"], "5</a></li>
+                    BS5PageItem(
+                      <a class="page-link" href="#"], "
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 6 15 12 9 18" /></svg>
                       </a>
                     </li>
@@ -94,7 +94,7 @@ static this() {
                       </a>
                     </li>
                     <li class="page-item page-next">
-                      <a class="page-link" href="#">
+                      <a class="page-link" href="#"], "
                         <div class="page-item-subtitle">next</div>
                         <div class="page-item-title">Breadcrumbs</div>
                       </a>

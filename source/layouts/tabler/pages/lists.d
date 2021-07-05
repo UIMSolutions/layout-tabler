@@ -22,12 +22,12 @@ static this() {
           "bannerTitle":"Willkommen",
           "bannerImage": "/img/apps/ecm/logo_640x640.png"
         ])
-        .title("UIM!ECM - Dokumentierte Sicherheit");
+        .title("UIM!Tabler - Dokumentierte Sicherheit");
       }
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content(string[string] someParameters = null) { 
+    override string content(STRINGAA reqParameters) { 
 
       auto item1(bool checked, string link, string image, string link2, string title, string text) {
         return 

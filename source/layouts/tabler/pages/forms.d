@@ -22,7 +22,7 @@ static this() {
           "bannerTitle":"Willkommen",
           "bannerImage": "/img/apps/ecm/logo_640x640.png"
         ])
-        .title("UIM!ECM - Dokumentierte Sicherheit")
+        .title("UIM!Tabler - Dokumentierte Sicherheit")
         .scripts(`
 Sentry.init({
   dsn: "https://8e4ad02f495946f888620f9fb99fd495@o484108.ingest.sentry.io/5536918",
@@ -327,7 +327,7 @@ noUiSlider.create(document.getElementById('range-color'), {
 
       mixin(OProperty!("DMGOClient", "client"));
 
-    override string content(string[string] someParameters = null) { 
+    override string content(STRINGAA reqParameters) { 
 
       auto part1 = 
 BS5Row( 

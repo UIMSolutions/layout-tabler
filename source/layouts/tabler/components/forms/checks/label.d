@@ -3,7 +3,7 @@
 @safe:
 import layouts.tabler;
 
-@safe: class DTABFormCheckLabel : DBS5Obj {
+class DTABFormCheckLabel : DBS5Obj {
 	mixin(H5This!("span", ["form-check-label"]));
 }
 mixin(H5Calls!"TABFormCheckLabel");

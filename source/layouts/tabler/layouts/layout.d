@@ -36,31 +36,29 @@ static this() {
         "UIM!Central");    
     }
 
-  override string toString(DH5AppPage page, string[string] parameters = null) {
-    string[string] newParameters;
-  
+  override string toString(DH5AppPage page, string[string] reqParameters) {
 		if (auto app = page.app) {
-      newParameters = app.parameters.dup;
-      newParameters["rootPath"] = app.rootPath;      
-      writeln("ROOTPATH = ", newParameters["rootPath"]);
+      reqParameters = app.parameters.dup;
+      reqParameters["rootPath"] = app.rootPath;      
+      writeln("ROOTPATH = ", reqParameters["rootPath"]);
     }
-		foreach(k,v; this.parameters) newParameters[k] = v;
-		foreach(k,v; page.parameters) newParameters[k] = v;
-		foreach(k,v; parameters) newParameters[k] = v;
+		foreach(k,v; this.parameters) reqParameters[k] = v;
+		foreach(k,v; page.parameters) reqParameters[k] = v;
+		foreach(k,v; parameters) reqParameters[k] = v;
 
     return super.toString(page,    
       H5Div(["banner"], 
         H5P(["display-6 d-flex align-items-center"], 
-          H5Img(["src": newParameters.get("bannerImage", "/img/apps/ecm/logo_640x640.png"), "style":"margin-left: 20px; margin-top:10px; margin-right:10px; height:40px;"]), 
-          H5Span(newParameters.get("bannerTitle", "")))).toString~
+          H5Img(["src": reqParameters.get("bannerImage", "/img/apps/ecm/logo_640x640.png"), "style":"margin-left: 20px; margin-top:10px; margin-right:10px; height:40px;"]), 
+          H5Span(reqParameters.get("bannerTitle", "")))).toString~
       H5Div(["page"], 
-        ("navigation" in newParameters ? newParameters["navigation"] : navigation(newParameters))~ 
+        ("navigation" in reqParameters ? reqParameters["navigation"] : navigation(reqParameters))~ 
         H5Div(["content"], 
-          H5Main(["pb-4"], ["style":"background-color:#ffffff;"], this.layout ?  this.layout.toString(page.content, newParameters) : page.content).toString~
-          ("footer" in newParameters ? newParameters["footer"] : footer(newParameters))
+          H5Main(["pb-4"], ["style":"background-color:#ffffff;"], this.layout ?  this.layout.toString(page.content(reqParameters), reqParameters) : page.content(reqParameters)).toString~
+          ("footer" in reqParameters ? reqParameters["footer"] : footer(reqParameters))
         ).toString
       ).toString, 
-      newParameters); 
+      reqParameters); 
   }
 
   });

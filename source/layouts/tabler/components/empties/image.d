@@ -9,5 +9,5 @@ import layouts.tabler;
 mixin(H5Calls!"BS5EmptyImage");
 
 unittest {
-	assert(Assert(BSEmptyImage, `<div class="empty-img"></div>`));
+	assert(Assert(BS5EmptyImage, `<div class="empty-img"></div>`));
 }
