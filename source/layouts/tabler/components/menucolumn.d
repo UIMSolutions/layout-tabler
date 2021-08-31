@@ -23,5 +23,5 @@ import layouts.tabler;
 mixin(H5Calls!"BS5DropdownMenuColumn");
 
 unittest {
-	assert(Assert(BS5DropdownMenuColumn, `<div class="dropdown-menu"></div>`));
+	assert(Assert(BS5DropdownMenuColumn, `<div class="dropdown-menu-column"></div>`));
 }

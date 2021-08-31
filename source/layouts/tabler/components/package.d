@@ -7,6 +7,7 @@ public import layouts.tabler.components.accordions;
 public import layouts.tabler.components.avatars;
 public import layouts.tabler.components.avatar;
 public import layouts.tabler.components.avatarlist;
+public import layouts.tabler.components.buttons;
 public import layouts.tabler.components.cardbutton;
 public import layouts.tabler.components.cardtabs;
 public import layouts.tabler.components.cards;
@@ -22,6 +23,7 @@ public import layouts.tabler.components.menucolumn;
 public import layouts.tabler.components.menucolumns;
 public import layouts.tabler.components.pageheader;
 public import layouts.tabler.components.pagetitle;
+public import layouts.tabler.components.ribbons;
 
 auto label(DBS5DropdownMenu menu, string content) {
   return menu(H5Label(["dropdown-item"], content));

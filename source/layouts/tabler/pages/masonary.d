@@ -32,7 +32,7 @@ var msnry = new Masonry( '#cards', {
         .title("UIM!Tabler - Dokumentierte Sicherheit");
       }
 
-      mixin(OProperty!("DMGOClient", "client"));
+      
 
     override string content(STRINGAA reqParameters) { 
 

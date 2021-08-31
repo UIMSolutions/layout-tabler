@@ -8,9 +8,7 @@ public import vibe.d;
 public import uim.core;
 public import uim.oop;
 public import uim.html;
-public import uim.web;
 public import uim.bootstrap.bs5;
-public import uim.mongo;
 
 public import layouts.tabler.components;
 

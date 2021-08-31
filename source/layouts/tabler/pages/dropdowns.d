@@ -27,7 +27,7 @@ static this() {
         .title("UIM!Tabler - Dokumentierte Sicherheit");
       }
 
-      mixin(OProperty!("DMGOClient", "client"));
+      
 
     override string content(STRINGAA reqParameters) { 
       auto dropdownMenu1 = BS5DropdownMenu(["dropdown-menu-demo"])

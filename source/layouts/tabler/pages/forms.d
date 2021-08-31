@@ -325,7 +325,7 @@ noUiSlider.create(document.getElementById('range-color'), {
     });`);
       }
 
-      mixin(OProperty!("DMGOClient", "client"));
+      
 
     override string content(STRINGAA reqParameters) { 
 

@@ -9,5 +9,5 @@ import layouts.tabler;
 mixin(H5Calls!"BS5Dropend");
 
 unittest {
-	assert(Assert(BS5Dropend, `<span class="dropend"></span>`));
+	assert(Assert(BS5Dropend, `<div class="dropend"></div>`));
 }
