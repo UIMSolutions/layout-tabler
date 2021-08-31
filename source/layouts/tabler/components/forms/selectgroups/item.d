@@ -3,7 +3,7 @@
 @safe:
 import layouts.tabler;
 
-@safe: class DBS5SelectgroupItem : DBS5Obj {
+class DBS5SelectgroupItem : DBS5Obj {
 	mixin(H5This!("label", ["form-selectgroup-item"]));
 
 	mixin(MyContent!("input", "BS5SelectgroupInput"));

@@ -10,13 +10,6 @@ public import uim.oop;
 public import uim.html;
 public import uim.bootstrap.bs5;
 
+public import layouts.tabler.obj;
 public import layouts.tabler.components;
 
-DH5App layoutTabler;
-static this() {
-    layoutTabler = new class DH5App {
-        this() {
-            super();
-        }
-    };
-}

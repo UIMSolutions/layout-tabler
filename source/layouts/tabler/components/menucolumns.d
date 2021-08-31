@@ -3,12 +3,12 @@
 @safe:
 import layouts.tabler;
 
-@safe: class DBS5DropdownMenuColumns : DBS5Obj {
+class DBS5DropdownMenuColumns : DBS5Obj {
 	mixin(H5This!("div", ["dropdown-menu-columns"]));
 
 	mixin(MyContent!("column", "BS5DropdownMenuColumn"));
 	unittest {
-		assert(Assert(BS5DropdownMenuColumns.column, `<div class="dropdown-menu"><a class="dropdown-item"></a></div>`));
+		assert(Assert(BS5DropdownMenuColumns.column, `<div class="dropdown-menu-columns"><a class="dropdown-item"></a></div>`));
 	}
 }
 mixin(H5Calls!"BS5DropdownMenuColumns");

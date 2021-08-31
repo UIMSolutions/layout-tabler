@@ -3,7 +3,7 @@
 @safe:
 import layouts.tabler;
 
-@safe: class DBS5EmptyHeader : DBS5Obj {
+class DBS5EmptyHeader : DBS5Obj {
 	mixin(H5This!("div", ["empty-header"]));
 }
 mixin(H5Calls!"BS5EmptyHeader");

@@ -3,7 +3,7 @@
 @safe:
 import layouts.tabler;
 
-@safe: class DBS5PageTitle : DBS5Obj {
+class DBS5PageTitle : DBS5Obj {
 	mixin(H5This!("h2", ["page-title"]));
 }
 mixin(H5Calls!"BS5PageTitle");

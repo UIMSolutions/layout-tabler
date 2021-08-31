@@ -3,7 +3,7 @@
 @safe:
 import layouts.tabler;
 
-@safe: class DBS5EmptyImage : DBS5Obj {
+class DBS5EmptyImage : DBS5Obj {
 	mixin(H5This!("div", ["empty-img"]));
 }
 mixin(H5Calls!"BS5EmptyImage");

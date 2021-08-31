@@ -3,7 +3,7 @@
 @safe:
 import layouts.tabler;
 
-@safe: class DBS5Ribbon : DBS5Obj {
+class DBS5Ribbon : DBS5Obj {
 	mixin(H5This!("div", ["ribbon"]));
 }
 mixin(H5Calls!"BS5Ribbon");

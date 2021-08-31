@@ -3,7 +3,7 @@
 @safe:
 import layouts.tabler;
 
-@safe: class DBS5EmptySubtitle : DBS5Obj {
+class DBS5EmptySubtitle : DBS5Obj {
 	mixin(H5This!("p", ["empty-subtitle"]));
 }
 mixin(H5Calls!"BS5EmptySubtitle");
