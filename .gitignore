@@ -13,3 +13,6 @@ layout-tabler-test-*
 *.o
 *.obj
 *.lst
+liblayout-tabler.a
+dub.settings.json
+dub.selections.json
