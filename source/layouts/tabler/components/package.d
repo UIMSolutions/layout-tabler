@@ -13,6 +13,7 @@ public import layouts.tabler.components.inputs;
 public import layouts.tabler.components.icons;
 public import layouts.tabler.components.lists;
 public import layouts.tabler.components.navs;
+public import layouts.tabler.components.statuses;
 
 // Modules
 public import layouts.tabler.components.cardbutton;
