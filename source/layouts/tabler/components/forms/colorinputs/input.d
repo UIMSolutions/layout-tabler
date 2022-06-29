@@ -3,13 +3,13 @@
 @safe:
 import layouts.tabler;
 
-class DBS5FormColorinputInput : DBS5Obj {
+class DBS5FormColorInput : DBS5Obj {
 	mixin(H5This!("input", ["form-colorinput-input"], null, true));
 }
-mixin(H5Calls!"BS5FormColorinputInput");
+mixin(H5Calls!"BS5FormColorInput");
 
 unittest {
-	assert(Assert(BS5FormColorinputInput, `<input class="form-colorinput-input">`));
+	assert(Assert(BS5FormColorInput, `<input class="form-colorinput-input">`));
 }
 
 
