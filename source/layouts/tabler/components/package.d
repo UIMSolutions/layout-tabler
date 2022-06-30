@@ -14,6 +14,7 @@ public import layouts.tabler.components.icons;
 public import layouts.tabler.components.lists;
 public import layouts.tabler.components.navs;
 public import layouts.tabler.components.statuses;
+public import layouts.tabler.components.timelines;
 
 // Modules
 public import layouts.tabler.components.cardbutton;
