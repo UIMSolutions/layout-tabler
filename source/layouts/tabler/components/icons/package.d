@@ -42,7 +42,27 @@ auto tablerIcon(string name, string[] classes, uint width, uint height, string f
     case "arrow-back-up": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1" /></svg>`; break; 
     case "arrow-big-down": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 4v8h3.586a1 1 0 0 1 .707 1.707l-6.586 6.586a1 1 0 0 1 -1.414 0l-6.586 -6.586a1 1 0 0 1 .707 -1.707h3.586v-8a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1z" /></svg>`; break; 
     case "arrow-big-left": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M20 15h-8v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h8a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1z" /></svg>`; break; 
+    case "arrow-big-left-line": result ~= ` icon-tabler-arrow-big-left-line" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h6v6h-6z"></path>
+   <path d="M21 15v-6"></path>
+</svg>`; break; 
+    case "arrow-big-left-lines": result ~= ` icon-tabler-arrow-big-left-lines" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 15v3.586a1 1 0 0 1 -1.707 .707l-6.586 -6.586a1 1 0 0 1 0 -1.414l6.586 -6.586a1 1 0 0 1 1.707 .707v3.586h3v6h-3z"></path>
+   <path d="M21 15v-6"></path><path d="M18 15v-6"></path></svg>`; break; 
     case "arrow-big-right": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 9h8v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1z" /></svg>`; break; 
+    case "arrow-big-right-line": result ~= ` icon-tabler-arrow-big-right-line" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 9v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-6v-6h6z"></path>
+   <path d="M3 9v6"></path>
+</svg>`; break; 
+    case "arrow-big-right-lines": result ~= ` icon-tabler-arrow-big-right-lines" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 9v-3.586a1 1 0 0 1 1.707 -.707l6.586 6.586a1 1 0 0 1 0 1.414l-6.586 6.586a1 1 0 0 1 -1.707 -.707v-3.586h-3v-6h3z"></path>
+   <path d="M3 9v6"></path>
+   <path d="M6 9v6"></path>
+</svg>`; break; 
     case "arrow-big-top": 
     case "arrow-big-up": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 20v-8h-3.586a1 1 0 0 1 -.707 -1.707l6.586 -6.586a1 1 0 0 1 1.414 0l6.586 6.586a1 1 0 0 1 -.707 1.707h-3.586v8a1 1 0 0 1 -1 1h-4a1 1 0 0 1 -1 -1z" /></svg>`; break; 
     case "arrow-down": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><line x1="12" y1="5" x2="12" y2="19" /><line x1="18" y1="13" x2="12" y2="19" /><line x1="6" y1="13" x2="12" y2="19" /></svg>`; break; 
