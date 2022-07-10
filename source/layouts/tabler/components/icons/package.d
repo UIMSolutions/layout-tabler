@@ -124,6 +124,60 @@ auto tablerIcon(string name, string[] classes, uint width, uint height, string f
     case "chevrons-right": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="7 7 12 12 7 17" /><polyline points="13 7 18 12 13 17" /></svg>`; break; 
     case "checkbox": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><polyline points="9 11 12 14 20 6" /><path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" /></svg>`; break; 
     case "circle": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="9" /></svg>`; break; 
+    case "circle-0": result ~= ` icon-tabler-circle-0" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 8a2 2 0 0 1 2 2v4a2 2 0 1 1 -4 0v-4a2 2 0 0 1 2 -2z"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-1": result ~= ` icon-tabler-circle-1" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 16v-8l-2 2"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-2": result ~= ` icon-tabler-circle-2" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 0"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-3": result ~= `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-3" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 12a2 2 0 1 0 -2 -2"></path>
+   <path d="M10 14a2 2 0 1 0 2 -2"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-4": result ~= ` icon-tabler-circle-4" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M13 16v-8l-4 6h5"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-5": result ~= ` icon-tabler-circle-5" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M10 16h2a2 2 0 1 0 0 -4h-2v-4h4"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-6": result ~= ` icon-tabler-circle-6" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <circle cx="12" cy="14" r="2"></circle>
+   <path d="M14 10a2 2 0 1 0 -4 0v4"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-7": result ~= ` icon-tabler-circle-7" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M10 8h4l-2 8"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-8": result ~= ` icon-tabler-circle-8" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <circle cx="12" cy="10" r="2"></circle>
+   <circle cx="12" cy="14" r="2"></circle>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
+    case "circle-9": result ~= ` icon-tabler-circle-9" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <circle cx="12" cy="10" r="2"></circle>
+   <path d="M10 14a2 2 0 1 0 4 0v-4"></path>
+   <circle cx="12" cy="12" r="9"></circle>
+</svg>`; break; 
     case "circle-check": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"], <desc>Download more icon variants from https://tabler-icons.io/i/circle-check</desc><path stroke="none" d="M0 0h24v24H0z" fill="none"], </path><circle cx="12" cy="12" r="9"], </circle><path d="M9 12l2 2l4 -4"], </path></svg>`; break; 
     case "cloud": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M7 18a4.6 4.4 0 0 1 0 -9a5 4.5 0 0 1 11 2h1a3.5 3.5 0 0 1 0 7h-12" /></svg>`; break; 
     case "cloud-download": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19 18a3.5 3.5 0 0 0 0 -7h-1a5 4.5 0 0 0 -11 -2a4.6 4.4 0 0 0 -2.1 8.4" /><line x1="12" y1="13" x2="12" y2="22" /><polyline points="9 19 12 22 15 19" /></svg>`; break; 
