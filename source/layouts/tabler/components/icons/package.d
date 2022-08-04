@@ -70,6 +70,10 @@ auto tablerIcon(string name, string[] classes, uint width, uint height, string f
     case "atom-2":          result ~= ` icon-tabler-atom-2" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="3"></circle><line x1="12" y1="21" x2="12" y2="21.01"></line><line x1="3" y1="9" x2="3" y2="9.01"></line><line x1="21" y1="9" x2="21" y2="9.01"></line><path d="M8 20.1a9 9 0 0 1 -5 -7.1"></path><path d="M16 20.1a9 9 0 0 0 5 -7.1"></path><path d="M6.2 5a9 9 0 0 1 11.4 0"></path></svg>`; break; 
     case "atom":            result ~= ` icon-tabler-atom-2" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="3"></circle><line x1="12" y1="21" x2="12" y2="21.01"></line><line x1="3" y1="9" x2="3" y2="9.01"></line><line x1="21" y1="9" x2="21" y2="9.01"></line><path d="M8 20.1a9 9 0 0 1 -5 -7.1"></path><path d="M16 20.1a9 9 0 0 0 5 -7.1"></path><path d="M6.2 5a9 9 0 0 1 11.4 0"></path></svg>`; break; 
     case "bell":            result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 5a2 2 0 0 1 4 0a7 7 0 0 1 4 6v3a4 4 0 0 0 2 3h-16a4 4 0 0 0 2 -3v-3a7 7 0 0 1 4 -6" /><path d="M9 17v1a3 3 0 0 0 6 0v-1" /></svg>`; break; 
+    case "book": result ~= ` icon-tabler-book" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path>
+   <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0"></path><line x1="3" y1="6" x2="3" y2="19"></line><line x1="12" y1="6" x2="12" y2="19"></line>
+   <line x1="21" y1="6" x2="21" y2="19"></line></svg>`; break;
     case "bookmark":        result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 4h6a2 2 0 0 1 2 2v14l-5 -3l-5 3v-14a2 2 0 0 1 2 -2" /></svg>`; break; 
     case "box-margin":      result ~= ` icon-tabler-box-margin" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M8 8h8v8h-8z"></path><path d="M4 4v.01"></path><path d="M8 4v.01"></path><path d="M12 4v.01"></path><path d="M16 4v.01"></path><path d="M20 4v.01"></path><path d="M4 20v.01"></path><path d="M8 20v.01"></path><path d="M12 20v.01"></path><path d="M16 20v.01"></path><path d="M20 20v.01"></path><path d="M20 16v.01"></path><path d="M20 12v.01"></path><path d="M20 8v.01"></path><path d="M4 16v.01"></path><path d="M4 12v.01"></path><path d="M4 8v.01"></path></svg>`; break; 
     case "box-model":       result ~= ` icon-tabler-box-model" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M8 8h8v8h-8z"></path><rect x="4" y="4" width="16" height="16" rx="2"></rect><path d="M16 16l3.3 3.3"></path><path d="M16 8l3.3 -3.3"></path><path d="M8 8l-3.3 -3.3"></path><path d="M8 16l-3.3 3.3"></path></svg>`; break; 
@@ -104,6 +108,16 @@ auto tablerIcon(string name, string[] classes, uint width, uint height, string f
     case "brand-vk": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><desc>Download more icon variants from https://tabler-icons.io/i/brand-vk</desc><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M14 19h-4a8 8 0 0 1 -8 -8v-5h4v5a4 4 0 0 0 4 4h0v-9h4v4.5l.03 -.004a4.531 4.531 0 0 0 3.97 -4.496h4l-.342 1.711a6.858 6.858 0 0 1 -3.658 4.789h0a5.34 5.34 0 0 1 3.566 4.111l.434 2.389h0h-4a4.531 4.531 0 0 0 -3.97 -4.496v4.5z"></path></svg>`; break; 
     case "brand-youtube": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><desc>Download more icon variants from https://tabler-icons.io/i/brand-youtube</desc><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><rect x="3" y="5" width="18" height="14" rx="4"></rect><path d="M10 9l5 3l-5 3z"></path></svg>`; break; 
     case "briefcase": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><desc>Download more icon variants from https://tabler-icons.io/i/briefcase</desc><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><rect x="3" y="7" width="18" height="13" rx="2"></rect><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path><line x1="12" y1="12" x2="12" y2="12.01"></line><path d="M3 13a20 20 0 0 0 18 0"></path></svg>`; break; 
+    case "building-carousel": result ~= ` icon-tabler-building-carousel" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <circle cx="12" cy="12" r="6"></circle>
+   <circle cx="5" cy="8" r="2"></circle>
+   <circle cx="12" cy="4" r="2"></circle>
+   <circle cx="19" cy="8" r="2"></circle>
+   <circle cx="5" cy="16" r="2"></circle>
+   <circle cx="19" cy="16" r="2"></circle>
+   <path d="M8 22l4 -10l4 10"></path>
+</svg>`; break; 
     case "building-skyscraper": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><desc>Download more icon variants from https://tabler-icons.io/i/building-skyscraper</desc><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><line x1="3" y1="21" x2="21" y2="21"></line><path d="M5 21v-14l8 -4v18"></path><path d="M19 21v-10l-6 -4"></path><line x1="9" y1="9" x2="9" y2="9.01"></line><line x1="9" y1="12" x2="9" y2="12.01"></line><line x1="9" y1="15" x2="9" y2="15.01"></line><line x1="9" y1="18" x2="9" y2="18.01"></line></svg>`; break; 
     case "calendar":  result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="4" y="5" width="16" height="16" rx="2" /><line x1="16" y1="3" x2="16" y2="7" /><line x1="8" y1="3" x2="8" y2="7" /><line x1="4" y1="11" x2="20" y2="11" /><line x1="11" y1="15" x2="12" y2="15" /><line x1="12" y1="15" x2="12" y2="18" /></svg>`; break; 
     case "candy":     result ~= ` icon-tabler-candy" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M7.05 11.293l4.243 -4.243a2 2 0 0 1 2.828 0l2.829 2.83a2 2 0 0 1 0 2.828l-4.243 4.243a2 2 0 0 1 -2.828 0l-2.829 -2.831a2 2 0 0 1 0 -2.828z"></path><path d="M16.243 9.172l3.086 -.772a1.5 1.5 0 0 0 .697 -2.516l-2.216 -2.217a1.5 1.5 0 0 0 -2.44 .47l-1.248 2.913"></path><path d="M9.172 16.243l-.772 3.086a1.5 1.5 0 0 1 -2.516 .697l-2.217 -2.216a1.5 1.5 0 0 1 .47 -2.44l2.913 -1.248"></path></svg>`; break; 
@@ -152,21 +166,15 @@ auto tablerIcon(string name, string[] classes, uint width, uint height, string f
 </svg>`; break; 
     case "circle-6": result ~= ` icon-tabler-circle-6" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <circle cx="12" cy="14" r="2"></circle>
-   <path d="M14 10a2 2 0 1 0 -4 0v4"></path>
-   <circle cx="12" cy="12" r="9"></circle>
-</svg>`; break; 
+   <circle cx="12" cy="14" r="2"></circle><path d="M14 10a2 2 0 1 0 -4 0v4"></path>
+   <circle cx="12" cy="12" r="9"></circle></svg>`; break; 
     case "circle-7": result ~= ` icon-tabler-circle-7" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <path d="M10 8h4l-2 8"></path>
-   <circle cx="12" cy="12" r="9"></circle>
-</svg>`; break; 
+   <path d="M10 8h4l-2 8"></path><circle cx="12" cy="12" r="9"></circle></svg>`; break; 
     case "circle-8": result ~= ` icon-tabler-circle-8" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-   <circle cx="12" cy="10" r="2"></circle>
-   <circle cx="12" cy="14" r="2"></circle>
-   <circle cx="12" cy="12" r="9"></circle>
-</svg>`; break; 
+   <circle cx="12" cy="10" r="2"></circle><circle cx="12" cy="14" r="2"></circle>
+   <circle cx="12" cy="12" r="9"></circle></svg>`; break; 
     case "circle-9": result ~= ` icon-tabler-circle-9" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
    <circle cx="12" cy="10" r="2"></circle><path d="M10 14a2 2 0 1 0 4 0v-4"></path><circle cx="12" cy="12" r="9"></circle>
@@ -180,6 +188,14 @@ auto tablerIcon(string name, string[] classes, uint width, uint height, string f
     case "currency-dollar": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" /><path d="M12 3v3m0 12v3" /></svg>`; break; 
     case "cut": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="7" cy="17" r="3" /><circle cx="17" cy="17" r="3" /><line x1="9.15" y1="14.85" x2="18" y2="4" /><line x1="6" y1="4" x2="14.85" y2="14.85" /></svg>`; break; 
     case "database": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><ellipse cx="12" cy="6" rx="8" ry="3"></ellipse><path d="M4 6v6a8 3 0 0 0 16 0v-6" /><path d="M4 12v6a8 3 0 0 0 16 0v-6" /></svg>`; break; 
+    case "device-gamepad-2": result ~= ` icon-tabler-device-gamepad-2" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round">
+   <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+   <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4z"></path>
+   <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232"></path>
+   <path d="M8 9v2"></path>
+   <path d="M7 10h2"></path>
+   <path d="M14 10h2"></path>
+</svg>`; break;
     case "dots": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="5" cy="12" r="1" /><circle cx="12" cy="12" r="1" /><circle cx="19" cy="12" r="1" /></svg>`; break; 
     case "download": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-2" /><polyline points="7 11 12 16 17 11" /><line x1="12" y1="4" x2="12" y2="16" /></svg>`; break; 
     case "edit": result ~= `" width="%s" height="%s" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="%s" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 7h-3a2 2 0 0 0 -2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2 -2v-3" /><path d="M9 15h3l8.5 -8.5a1.5 1.5 0 0 0 -3 -3l-8.5 8.5v3" /><line x1="16" y1="5" x2="19" y2="8" /></svg>`; break; 
