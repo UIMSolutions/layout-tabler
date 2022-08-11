@@ -8,16 +8,16 @@ class DBS5Status : DBS5Obj {
 
   O color(this O)(string value){ this.classes("status-"~value); return cast(O)this; }
 	unittest {
-		assert(Assert(BS5Status.color("blue"),`<span class="status status-blue"></span>`));
+		assert(BS5Status.color("blue"),`<span class="status status-blue"></span>`));
 	}
 
   O lite(this O)(bool value = true){ if (value) this.classes("status-lite"); return cast(O)this; }
 	unittest {
-		assert(Assert(BS5Status.lite,`<span class="status status-lite"></span>`));
+		assert(BS5Status.lite,`<span class="status status-lite"></span>`));
 	}
 }
 mixin(H5Calls!"BS5Status");
 
 unittest {
-	assert(Assert(BS5Status, `<span class="status"></span>`));
+	assert(BS5Status, `<span class="status"></span>`));
 }

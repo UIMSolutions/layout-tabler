@@ -12,5 +12,5 @@ class DBS5SelectgroupItem : DBS5Obj {
 mixin(H5Calls!"BS5SelectgroupItem");
 
 unittest {
-	assert(Assert(BS5SelectgroupItem, `<label class="form-selectgroup-item"></label>`));
+	assert(BS5SelectgroupItem, `<label class="form-selectgroup-item"></label>`));
 }

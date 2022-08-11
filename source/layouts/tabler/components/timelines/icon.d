@@ -8,11 +8,11 @@ class DBS5TimelineIcon : DBS5Obj {
 
   O color(this O)(string value){ this.classes("bg-"~value); return cast(O)this; }
 	unittest {
-		assert(Assert(BS5TimelineIcon.color("blue"),`<div class="bg-blue list-timeline-icon"></div>`));
+		assert(BS5TimelineIcon.color("blue"),`<div class="bg-blue list-timeline-icon"></div>`));
 	}
 }
 mixin(H5Calls!"BS5TimelineIcon");
 
 unittest {
-	assert(Assert(BS5TimelineIcon, `<span class="status"></span>`));
+	assert(BS5TimelineIcon, `<span class="status"></span>`));
 }

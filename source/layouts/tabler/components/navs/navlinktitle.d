@@ -9,5 +9,5 @@ class DBS5NavLinkTitle : DBS5Obj {
 mixin(H5Calls!"BS5NavLinkTitle");
 
 unittest {
-	assert(Assert(BS5NavLinkTitle, `<span class="nav-link-title"></span>`));
+	assert(BS5NavLinkTitle, `<span class="nav-link-title"></span>`));
 }

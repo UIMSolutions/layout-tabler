@@ -9,5 +9,5 @@ class DBS5TimelineTitle : DBS5Obj {
 mixin(H5Calls!"BS5TimelineTitle");
 
 unittest {
-	assert(Assert(BS5TimelineTitle, `<p class="list-timeline-title"></p>`));
+	assert(BS5TimelineTitle, `<p class="list-timeline-title"></p>`));
 }

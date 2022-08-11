@@ -9,7 +9,7 @@ class DTABFormCheckLabel : DBS5Obj {
 mixin(H5Calls!"TABFormCheckLabel");
 
 unittest {
-	assert(Assert(TABFormCheckLabel, `<span class="form-check-label"></span>`));
+	assert(TABFormCheckLabel, `<span class="form-check-label"></span>`));
 }
 
 

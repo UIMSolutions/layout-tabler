@@ -8,11 +8,11 @@ class DBS5DatagridContent : DBS5Obj {
 
   O color(this O)(string value){ this.classes("bg-"~value); return cast(O)this; }
 	unittest {
-		assert(Assert(BS5DatagridContent.color("blue"),`<div class="bg-blue datagrid-content"></div>`));
+		assert(BS5DatagridContent.color("blue"),`<div class="bg-blue datagrid-content"></div>`));
 	}
 }
 mixin(H5Calls!"BS5DatagridContent");
 
 unittest {
-	assert(Assert(BS5DatagridContent, `<div class="datagrid-content"></div>`));
+	assert(BS5DatagridContent, `<div class="datagrid-content"></div>`));
 }

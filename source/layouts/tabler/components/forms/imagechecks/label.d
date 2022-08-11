@@ -9,5 +9,5 @@ class DBS5ImageCheckLabel : DBS5Obj {
 mixin(H5Calls!"BS5ImageCheckLabel");
 
 unittest {
-	assert(Assert(BS5ImageCheckLabel, `<label class="form-imagecheck"></label>`));
+	assert(BS5ImageCheckLabel, `<label class="form-imagecheck"></label>`));
 }

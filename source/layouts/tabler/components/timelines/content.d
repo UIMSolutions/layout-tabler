@@ -9,5 +9,5 @@ class DBS5TimelineContent : DBS5Obj {
 mixin(H5Calls!"BS5TimelineContent");
 
 unittest {
-	assert(Assert(BS5TimelineContent, `<div class="list-timeline-content"></div>`));
+	assert(BS5TimelineContent, `<div class="list-timeline-content"></div>`));
 }

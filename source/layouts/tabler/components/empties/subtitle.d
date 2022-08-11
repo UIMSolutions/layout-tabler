@@ -9,5 +9,5 @@ class DBS5EmptySubtitle : DBS5Obj {
 mixin(H5Calls!"BS5EmptySubtitle");
 
 unittest {
-	assert(Assert(BS5EmptySubtitle, `<p class="empty-subtitle"></p>`));
+	assert(BS5EmptySubtitle, `<p class="empty-subtitle"></p>`));
 }

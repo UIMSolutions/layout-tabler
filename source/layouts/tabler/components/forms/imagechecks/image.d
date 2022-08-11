@@ -14,5 +14,5 @@ class DBS5ImageCheckImage : DBS5Obj {
 mixin(H5Calls!"BS5ImageCheckImage");
 
 unittest {
-	assert(Assert(BS5ImageCheckImage, `<img class="form-imagecheck-image">`));
+	assert(BS5ImageCheckImage, `<img class="form-imagecheck-image">`));
 }

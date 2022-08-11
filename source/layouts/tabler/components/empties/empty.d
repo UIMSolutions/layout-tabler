@@ -14,7 +14,7 @@ class DBS5Empty : DBS5Obj {
 
 	mixin(MyContent!("image", "BS5EmptyImage"));
 	unittest {
-		assert(Assert(BS5Empty.image, `<div class="empty"><div class="empty-img"></div></div>`));
+		assert(BS5Empty.image, `<div class="empty"><div class="empty-img"></div></div>`));
 	}
 
 	mixin(MyContent!("header", "BS5EmptyHeader"));
@@ -30,5 +30,5 @@ class DBS5Empty : DBS5Obj {
 mixin(H5Calls!"BS5Empty");
 
 unittest {
-	assert(Assert(BS5Empty, `<div class="empty"></div>`));
+	assert(BS5Empty, `<div class="empty"></div>`));
 }
