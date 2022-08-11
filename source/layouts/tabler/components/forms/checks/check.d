@@ -12,7 +12,7 @@ class DTABFormCheck : DBS5Obj {
 mixin(H5Calls!"TABFormCheck");
 
 unittest {
-	assert(TABFormCheck, `<label class="form-check"></label>`));
+	assert(TABFormCheck, `<label class="form-check"></label>`);
 }
 
 

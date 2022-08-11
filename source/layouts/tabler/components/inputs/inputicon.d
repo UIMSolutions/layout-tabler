@@ -9,5 +9,5 @@ class DBS5InputIcon : DBS5Obj {
 mixin(H5Calls!"BS5InputIcon");
 
 unittest {
-	assert(BS5InputIcon, `<div class="input-icon"></div>`));
+	assert(BS5InputIcon, `<div class="input-icon"></div>`);
 }

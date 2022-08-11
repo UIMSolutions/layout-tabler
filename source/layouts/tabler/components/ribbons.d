@@ -9,5 +9,5 @@ class DBS5Ribbon : DBS5Obj {
 mixin(H5Calls!"BS5Ribbon");
 
 unittest {
-	assert(BS5Ribbon, `<div class="ribbon"></div>`));
+	assert(BS5Ribbon, `<div class="ribbon"></div>`);
 }

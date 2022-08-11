@@ -9,5 +9,5 @@ class DBS5Avatar : DBS5Obj {
 mixin(H5Calls!"BS5Avatar");
 
 unittest {
-	assert(BS5Avatar, `<span class="avatar"></span>`));
+	assert(BS5Avatar, `<span class="avatar"></span>`);
 }

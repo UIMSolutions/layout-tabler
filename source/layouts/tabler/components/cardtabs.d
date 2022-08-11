@@ -9,5 +9,5 @@ class DBS5CardTabs : DBS5Obj {
 mixin(H5Calls!"BS5CardTabs");
 
 unittest {
-	assert(BS5CardTabs, `<div class="card-tabs"></div>`));
+	assert(BS5CardTabs, `<div class="card-tabs"></div>`);
 }

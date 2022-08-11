@@ -8,12 +8,12 @@ class DBS5AvatarList : DBS5Obj {
 
 	mixin(MyContent!("avatar", "BS5Avatar"));
 	unittest {
-		assert(BS5AvatarList.avatar, `<div class="avatar-list"><span class="avatar"></span></div>`));
+		assert(BS5AvatarList.avatar, `<div class="avatar-list"><span class="avatar"></span></div>`);
 	}
 
 }
 mixin(H5Calls!"BS5AvatarList");
 
 unittest {
-	assert(BS5AvatarList, `<div class="avatar-list"></div>`));
+	assert(BS5AvatarList, `<div class="avatar-list"></div>`);
 }

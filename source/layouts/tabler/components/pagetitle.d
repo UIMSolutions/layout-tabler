@@ -9,5 +9,5 @@ class DBS5PageTitle : DBS5Obj {
 mixin(H5Calls!"BS5PageTitle");
 
 unittest {
-	assert(BS5PageTitle, `<h2 class="page-title"></h2>`));
+	assert(BS5PageTitle, `<h2 class="page-title"></h2>`);
 }

@@ -15,7 +15,7 @@ class DBS5DropdownMenuColumn : DBS5Obj {
 
 	mixin(MyContent!("link", "BS5DropdownLink"));
 	unittest {
-		assert(BS5DropdownMenuColumn.link, `<div class="dropdown-menu-column"><a class="dropdown-item"></a></div>`));
+		assert(BS5DropdownMenuColumn.link, `<div class="dropdown-menu-column"><a class="dropdown-item"></a></div>`);
 	}
 
 	mixin(MyContent!("text", "BS5DropdownText"));
@@ -23,5 +23,5 @@ class DBS5DropdownMenuColumn : DBS5Obj {
 mixin(H5Calls!"BS5DropdownMenuColumn");
 
 unittest {
-	assert(BS5DropdownMenuColumn, `<div class="dropdown-menu-column"></div>`));
+	assert(BS5DropdownMenuColumn, `<div class="dropdown-menu-column"></div>`);
 }

@@ -9,5 +9,5 @@ class DBS5Dropend : DBS5Obj {
 mixin(H5Calls!"BS5Dropend");
 
 unittest {
-	assert(BS5Dropend, `<div class="dropend"></div>`));
+	assert(BS5Dropend, `<div class="dropend"></div>`);
 }

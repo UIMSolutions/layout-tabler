@@ -9,5 +9,5 @@ class DBS5EmptyAction : DBS5Obj {
 mixin(H5Calls!"BS5EmptyAction");
 
 unittest {
-	assert(BS5EmptyAction, `<div class="empty-action"></div>`));
+	assert(BS5EmptyAction, `<div class="empty-action"></div>`);
 }

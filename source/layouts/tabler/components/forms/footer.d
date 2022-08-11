@@ -9,7 +9,7 @@ class DBS5FormFooter : DBS5Obj {
 mixin(H5Calls!"BS5FormFooter");
 
 unittest {
-	assert(BS5FormFooter, `<div class="form-footer"></div>`));
+	assert(BS5FormFooter, `<div class="form-footer"></div>`);
 }
 
 auto footer(DBS5Form form, DBS5FormFooter addFooter) {

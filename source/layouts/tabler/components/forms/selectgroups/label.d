@@ -9,7 +9,7 @@ class DBS5SelectgroupLabel : DBS5Obj {
 mixin(H5Calls!"BS5SelectgroupLabel");
 
 unittest {
-	assert(BS5SelectgroupLabel, `<span class="form-selectgroup-label"></span>`));
+	assert(BS5SelectgroupLabel, `<span class="form-selectgroup-label"></span>`);
 }
 
 

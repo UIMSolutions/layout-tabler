@@ -9,5 +9,5 @@ class DBS5EmptyIcon : DBS5Obj {
 mixin(H5Calls!"BS5EmptyIcon");
 
 unittest {
-	assert(BS5EmptyIcon, `<div class="empty-icon"></div>`));
+	assert(BS5EmptyIcon, `<div class="empty-icon"></div>`);
 }
