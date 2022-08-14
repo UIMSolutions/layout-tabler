@@ -15,9 +15,19 @@ unittest {
 
 class DBS5ButtonIconLink : DBS5ButtonLink {
 	mixin(H5This!("A", ["btn-icon"]));
+
+	override void initialize() {
+		super.initialize();
+
+		this
+			.tag("a")
+			.addClasses("btn-icon")
+			.addAttributes(["role":"button"]);
+	}
 }
 mixin(H5Calls!"BS5ButtonIconLink");
 unittest {
+	assert(BS5ButtonIconLink);
 	assert(BS5ButtonIconLink == `<a class="btn btn-icon" role="button"></a>`);
 }
 
