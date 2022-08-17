@@ -6,7 +6,7 @@ import layouts.tabler;
 class DBS5DatagridItem : DBS5Obj {
 	mixin(H5This!("div", ["datagrid-item"]));
 
-  O color(this O)(string value){ this.classes("bg-"~value); return cast(O)this; }
+  O color(this O)(string value){ this.addClasses("bg-"~value); return cast(O)this; }
 }
 mixin(H5Calls!"BS5DatagridItem");
 
