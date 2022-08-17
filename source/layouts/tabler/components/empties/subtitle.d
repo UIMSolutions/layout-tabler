@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.empties.subtitle;
+module layouts.tabler.components.empties.subtitle;
 
 @safe:
 import layouts.tabler;
@@ -8,6 +8,6 @@ class DBS5EmptySubtitle : DBS5Obj {
 }
 mixin(H5Calls!"BS5EmptySubtitle");
 
-unittest {
-	assert(BS5EmptySubtitle, `<p class="empty-subtitle"></p>`);
-}
+version(test_layout_tabler) { unittest {
+	assert(BS5EmptySubtitle == `<p class="empty-subtitle"></p>`);
+}}
