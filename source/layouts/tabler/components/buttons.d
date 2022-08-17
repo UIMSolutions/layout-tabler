@@ -46,7 +46,6 @@ class DBS5ButtonSquareLink : DBS5ButtonLink {
 mixin(H5Calls!"BS5ButtonSquareLink");
 
 version(test_layout_tabler) { unittest {
-	version(layout_tabler) {
 		assert(BS5ButtonSquareLink == `<a class="btn btn-square"></a>`);
 }}
 
