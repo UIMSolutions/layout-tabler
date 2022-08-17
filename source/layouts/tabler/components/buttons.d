@@ -5,6 +5,14 @@ import layouts.tabler;
 
 class DBS5ButtonIcon : DBS5Button {
 	mixin(H5This!("Button", ["btn-icon"]));
+
+	override void initialize() {
+		super.initialize;
+
+		this
+			.addClasses("btn", "btn-icon")
+			.addAttributes(["type":"button"]);
+	}
 }
 mixin(H5Calls!"BS5ButtonIcon");
 
@@ -42,11 +50,18 @@ version(test_layout_tabler) { unittest {
 
 class DBS5ButtonSquareLink : DBS5ButtonLink {
 	mixin(H5This!("A", ["btn-square"]));
+
+	override void initialize() {
+		super.initialize();
+
+		this
+			.addClasses("btn");
+	}
 }
 mixin(H5Calls!"BS5ButtonSquareLink");
 
 version(test_layout_tabler) { unittest {
-		assert(BS5ButtonSquareLink == `<a class="btn btn-square"></a>`);
+		assert(BS5ButtonSquareLink == `<a class="btn btn-square" role="button"></a>`);
 }}
 
 class DBS5ButtonPill : DBS5Button {
@@ -55,7 +70,7 @@ class DBS5ButtonPill : DBS5Button {
 mixin(H5Calls!"BS5ButtonPill");
 
 version(test_layout_tabler) { unittest {
-	assert(BS5ButtonPill == `<button class="btn btn-pill"></button>`);
+	assert(BS5ButtonPill == `<button class="btn btn-pill" type="button"></button>`);
 }}
 
 class DBS5ButtonPillLink : DBS5ButtonLink {
@@ -64,5 +79,5 @@ class DBS5ButtonPillLink : DBS5ButtonLink {
 mixin(H5Calls!"BS5ButtonPillLink");
 
 version(test_layout_tabler) { unittest {
-	assert(BS5ButtonPillLink == `<a class="btn btn-pill"></a>`);
+	assert(BS5ButtonPillLink == `<a class="btn btn-pill" role="button"></a>`);
 }}
