@@ -28,5 +28,32 @@
 		"../../LIBS/uim-bootstrap",
 		"./"
 	],
-	"targetType": "library"
+	"targetType": "library",
+	"configurations": [
+		{
+			"name": "default",
+			"targetType": "library"
+		},
+		{
+			"name": "testUnit",
+			"targetType": "library",
+			"versions": [
+				"test_layout_tabler"
+			]
+		},
+		{
+			"name": "testAll",
+			"targetType": "library",
+			"versions": [
+				"test_uim_core",
+				"test_uim_oop",
+				"test_uim_css",
+				"test_uim_javascript",
+				"test_uim_json",
+				"test_uim_html",
+				"test_uim_bootstrap",
+				"test_layout_tabler"
+			]
+		}
+	]
 }
