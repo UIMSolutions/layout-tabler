@@ -21,6 +21,7 @@ class DBS5Empty : DBS5Obj {
 mixin(H5Calls!"BS5Empty");
 
 version(test_layout_tabler) { unittest {
-	assert(BS5Empty, `<div class="empty"></div>`);
-		assert(BS5Empty.image, `<div class="empty"><div class="empty-img"></div></div>`);
+	assert(BS5Empty == `<div class="empty"></div>`);
+	assert(BS5Empty.image == `<div class="empty"><div class="empty-img"></div></div>`);
+	assert(BS5Empty.image.image == `<div class="empty"><div class="empty-img"></div><div class="empty-img"></div></div>`);
 }}
