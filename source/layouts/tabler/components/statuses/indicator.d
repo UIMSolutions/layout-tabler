@@ -16,9 +16,9 @@ class DBS5StatusIndicator : DBS5Obj {
     );
   }
 
-  O animated(this O)(bool value = true){ if (value) this.classes("status-indicator-animated"); return cast(O)this; }
+  O animated(this O)(bool value = true){ if (value) this.addClasses("status-indicator-animated"); return cast(O)this; }
 
-  O color(this O)(string value){ this.classes("status-"~value); return cast(O)this; }
+  O color(this O)(string value){ this.addClasses("status-"~value); return cast(O)this; }
 }
 mixin(H5Calls!"BS5StatusIndicator");
 
