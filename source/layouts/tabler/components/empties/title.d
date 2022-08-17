@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.empties.title;
+module layouts.tabler.components.empties.title;
 
 @safe:
 import layouts.tabler;
@@ -8,6 +8,6 @@ class DBS5EmptyTitle : DBS5Obj {
 }
 mixin(H5Calls!"BS5EmptyTitle");
 
-unittest {
-	assert(BS5EmptyTitle, `<p class="empty-title"></p>`);
-}
+version(test_layout_tabler) { unittest {
+	assert(BS5EmptyTitle == `<p class="empty-title"></p>`);
+}}
