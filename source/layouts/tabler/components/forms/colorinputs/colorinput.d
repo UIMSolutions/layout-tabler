@@ -11,7 +11,7 @@ class DBS5FormColorinput : DBS5Obj {
 }
 mixin(H5Calls!"BS5FormColorinput");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5FormColorinput, `<label class="form-colorinput"></label>`);
 }
 

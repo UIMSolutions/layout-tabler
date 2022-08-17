@@ -8,7 +8,7 @@ class DBS5FormFooter : DBS5Obj {
 }
 mixin(H5Calls!"BS5FormFooter");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5FormFooter, `<div class="form-footer"></div>`);
 }
 

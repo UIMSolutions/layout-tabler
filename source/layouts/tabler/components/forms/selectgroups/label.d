@@ -8,7 +8,7 @@ class DBS5SelectgroupLabel : DBS5Obj {
 }
 mixin(H5Calls!"BS5SelectgroupLabel");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5SelectgroupLabel, `<span class="form-selectgroup-label"></span>`);
 }
 

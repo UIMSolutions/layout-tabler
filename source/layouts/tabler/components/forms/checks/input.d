@@ -8,7 +8,7 @@ class DTABFormCheckInput : DBS5Obj {
 }
 mixin(H5Calls!"TABFormCheckInput");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(TABFormCheckInput, `<input class="form-check-input">`);
 }
 

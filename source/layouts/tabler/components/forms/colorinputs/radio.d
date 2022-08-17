@@ -8,9 +8,9 @@ class DBS5FormColorInputRadio : DBS5FormColorInput {
 }
 mixin(H5Calls!"BS5FormColorInputRadio");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5FormColorInputRadio, `<input class="form-colorinput-input">`);
-}
+}}
 
 
 

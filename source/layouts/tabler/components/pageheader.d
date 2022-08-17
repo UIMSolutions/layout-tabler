@@ -8,6 +8,6 @@ class DBS5PageHeader : DBS5Obj {
 }
 mixin(H5Calls!"BS5PageHeader");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5PageHeader, `<div class="page-header"></div>`);
 }

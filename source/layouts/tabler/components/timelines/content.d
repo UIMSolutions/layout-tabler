@@ -8,6 +8,6 @@ class DBS5TimelineContent : DBS5Obj {
 }
 mixin(H5Calls!"BS5TimelineContent");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5TimelineContent, `<div class="list-timeline-content"></div>`);
 }

@@ -8,6 +8,6 @@ class DBS5Footer : DBS5Obj {
 }
 mixin(H5Calls!"BS5Footer");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5Footer, `<footer class="footer"></footer>`);
 }

@@ -8,6 +8,6 @@ class DBS5PageTitle : DBS5Obj {
 }
 mixin(H5Calls!"BS5PageTitle");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5PageTitle, `<h2 class="page-title"></h2>`);
 }

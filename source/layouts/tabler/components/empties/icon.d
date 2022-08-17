@@ -8,6 +8,6 @@ class DBS5EmptyIcon : DBS5Obj {
 }
 mixin(H5Calls!"BS5EmptyIcon");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5EmptyIcon, `<div class="empty-icon"></div>`);
 }

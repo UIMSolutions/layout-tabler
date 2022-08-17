@@ -8,6 +8,6 @@ import layouts.tabler;
 }
 mixin(H5Calls!"BS5AccordionBody");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5AccordionBody, `<div class="accordion-body"></div>`);
 } */

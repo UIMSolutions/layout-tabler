@@ -10,7 +10,7 @@ import layouts.tabler;
 }
 mixin(H5Calls!"BS5AccordionCollapse");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5AccordionCollapse, `<div class="accordion-collapse collapse"></div>`);
 }
  */

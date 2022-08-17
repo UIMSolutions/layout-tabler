@@ -8,6 +8,6 @@ class DBS5Ribbon : DBS5Obj {
 }
 mixin(H5Calls!"BS5Ribbon");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5Ribbon == `<div class="ribbon"></div>`);
 }

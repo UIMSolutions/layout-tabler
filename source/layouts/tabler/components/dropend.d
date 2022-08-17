@@ -8,6 +8,6 @@ class DBS5Dropend : DBS5Obj {
 }
 mixin(H5Calls!"BS5Dropend");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5Dropend, `<div class="dropend"></div>`);
 }

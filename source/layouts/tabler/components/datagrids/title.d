@@ -12,5 +12,5 @@ mixin(H5Calls!"BS5DatagridTitle");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5DatagridTitle, `<div class="datagrid-title"></div>`);
-		assert(BS5DatagridTitle.color("blue"),`<div class="bg-blue datagrid-title"></div>`);
-}
+	assert(BS5DatagridTitle.color("blue"),`<div class="bg-blue datagrid-title"></div>`);
+}}

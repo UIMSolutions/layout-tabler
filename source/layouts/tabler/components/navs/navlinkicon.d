@@ -8,6 +8,6 @@ class DBS5NavLinkIcon : DBS5Obj {
 }
 mixin(H5Calls!"BS5NavLinkIcon");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5NavLinkIcon, `<span class="nav-link-icon"></span>`);
 }
