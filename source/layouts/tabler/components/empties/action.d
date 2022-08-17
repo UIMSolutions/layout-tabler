@@ -1,4 +1,4 @@
-﻿module layouts.tabler.components.empties.action;
+module layouts.tabler.components.empties.action;
 
 @safe:
 import layouts.tabler;
@@ -8,6 +8,6 @@ class DBS5EmptyAction : DBS5Obj {
 }
 mixin(H5Calls!"BS5EmptyAction");
 
-unittest {
+version(test_layout_tabler) { unittest {
 	assert(BS5EmptyAction, `<div class="empty-action"></div>`);
-}
+}}
