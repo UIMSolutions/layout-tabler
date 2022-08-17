@@ -10,4 +10,4 @@ mixin(H5Calls!"BS5ImageCheckLabel");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5ImageCheckLabel, `<label class="form-imagecheck"></label>`);
-}
+}}

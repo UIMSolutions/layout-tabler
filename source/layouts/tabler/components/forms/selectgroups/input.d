@@ -10,4 +10,4 @@ mixin(H5Calls!"BS5SelectgroupInput");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5SelectgroupInput, `<input class="form-selectgroup-input">`);
-}
+}}

@@ -10,7 +10,7 @@ mixin(H5Calls!"TABFormCheckLabel");
 
 version(test_layout_tabler) { unittest {
 	assert(TABFormCheckLabel, `<span class="form-check-label"></span>`);
-}
+}}
 
 
 

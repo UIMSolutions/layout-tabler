@@ -10,4 +10,4 @@ mixin(H5Calls!"BS5PageHeader");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5PageHeader, `<div class="page-header"></div>`);
-}
+}}

@@ -10,4 +10,4 @@ mixin(H5Calls!"BS5Dropend");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5Dropend, `<div class="dropend"></div>`);
-}
+}}

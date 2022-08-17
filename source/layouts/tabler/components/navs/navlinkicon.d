@@ -10,4 +10,4 @@ mixin(H5Calls!"BS5NavLinkIcon");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5NavLinkIcon, `<span class="nav-link-icon"></span>`);
-}
+}}

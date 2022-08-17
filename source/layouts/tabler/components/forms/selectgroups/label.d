@@ -10,7 +10,7 @@ mixin(H5Calls!"BS5SelectgroupLabel");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5SelectgroupLabel, `<span class="form-selectgroup-label"></span>`);
-}
+}}
 
 
 

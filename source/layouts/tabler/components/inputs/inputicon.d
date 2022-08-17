@@ -10,4 +10,4 @@ mixin(H5Calls!"BS5InputIcon");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5InputIcon, `<div class="input-icon"></div>`);
-}
+}}

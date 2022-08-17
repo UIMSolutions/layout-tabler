@@ -10,4 +10,4 @@ mixin(H5Calls!"BS5EmptyIcon");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5EmptyIcon, `<div class="empty-icon"></div>`);
-}
+}}

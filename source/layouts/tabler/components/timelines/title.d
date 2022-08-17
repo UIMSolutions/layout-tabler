@@ -10,4 +10,4 @@ mixin(H5Calls!"BS5TimelineTitle");
 
 version(test_layout_tabler) { unittest {
 	assert(BS5TimelineTitle, `<p class="list-timeline-title"></p>`);
-}
+}}
