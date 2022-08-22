@@ -269,6 +269,6 @@ auto tablerIcon(string name, string[] classes, uint width, uint height, string f
     default: return null; 
   }
 
-  debug writeln(name, "\t->\t", result);
+  // debug writeln(name, "\t->\t", result);
   return result.format(width, height, fill);
 }
