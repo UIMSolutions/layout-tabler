@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.inputs.inputicon;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5InputIcon : DBS5Obj {
 	mixin(H5This!("div", ["input-icon"]));

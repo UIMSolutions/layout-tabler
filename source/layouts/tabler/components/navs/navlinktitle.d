@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.navs.navlinktitle;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5NavLinkTitle : DBS5Obj {
 	mixin(H5This!("span", ["nav-link-title"]));

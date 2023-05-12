@@ -1,7 +1,7 @@
 module layouts.tabler.components.timelines.content;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5TimelineContent : DBS5Obj {
 	mixin(H5This!("div", ["list-timeline-content"]));

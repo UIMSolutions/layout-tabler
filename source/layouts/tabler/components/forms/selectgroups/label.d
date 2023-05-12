@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.forms.selectgroups.label;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5SelectgroupLabel : DBS5Obj {
 	mixin(H5This!("span", ["form-selectgroup-label"]));

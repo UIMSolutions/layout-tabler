@@ -1,1 +1,1 @@
-module layouts.tabler.interfaces
+module layouts.tabler.interfaces;

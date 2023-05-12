@@ -1,7 +1,7 @@
 module layouts.tabler.components.icons;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 auto tablerIcon(string name) {
   return tablerIcon(name, null, 24, 24);

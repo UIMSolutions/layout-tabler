@@ -1,7 +1,7 @@
 module layouts.tabler.components.inputs;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 public import layouts.tabler.components.inputs.inputicon;
 

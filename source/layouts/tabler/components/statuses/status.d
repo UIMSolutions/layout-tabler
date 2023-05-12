@@ -1,7 +1,7 @@
 module layouts.tabler.components.statuses.status;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5Status : DBS5Obj {
 	mixin(H5This!("span", ["status"]));

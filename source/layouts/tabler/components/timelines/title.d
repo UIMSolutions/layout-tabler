@@ -1,7 +1,7 @@
 module layouts.tabler.components.timelines.title;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5TimelineTitle : DBS5Obj {
 	mixin(H5This!("p", ["list-timeline-title"]));
