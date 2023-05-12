@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.accordions.collapse;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 /* class DBS5AccordionCollapse : DBS5Obj {
 	mixin(H5This!("div", ["accordion-collapse collapse"]));

@@ -1,7 +1,7 @@
 module layouts.tabler.components.datagrids.datagrid;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5Datagrid : DBS5Obj {
 	mixin(H5This!("div", ["datagrid"]));

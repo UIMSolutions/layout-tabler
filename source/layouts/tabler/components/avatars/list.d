@@ -1,7 +1,7 @@
 module layouts.tabler.components.avatars.list;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5AvatarList : DBS5Obj {
 	mixin(H5This!("div", ["avatar-list"]));

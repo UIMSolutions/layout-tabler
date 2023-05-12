@@ -1,7 +1,7 @@
 module layouts.tabler.components.cards;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 auto navbarFirst() {
   return

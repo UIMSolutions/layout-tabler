@@ -1,7 +1,7 @@
 module layouts.tabler.components.datagrids.title;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5DatagridTitle : DBS5Obj {
 	mixin(H5This!("div", ["datagrid-title"]));

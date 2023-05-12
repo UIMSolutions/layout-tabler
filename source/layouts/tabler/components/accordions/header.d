@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.accordions.header;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 /* class DBS5AccordionHeader : DBS5Obj {
 	mixin(H5This!("h2", ["accordion-header"]));

@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.accordions.body_;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 /* class DBS5AccordionBody : DBS5Obj {
 	mixin(H5This!("div", ["accordion-body"]));

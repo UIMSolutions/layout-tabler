@@ -1,7 +1,7 @@
 module layouts.tabler.components.empties.empty;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5Empty : DBS5Obj {
 	mixin(H5This!("div", ["empty"]));
