@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.empties.image;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5EmptyImage : DBS5Obj {
 	mixin(H5This!("div", ["empty-img"]));

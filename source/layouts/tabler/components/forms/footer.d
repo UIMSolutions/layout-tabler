@@ -1,7 +1,7 @@
 module layouts.tabler.components.forms.footer;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5FormFooter : DBS5Obj {
 	mixin(H5This!("div", ["form-footer"]));

@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.forms.checks.input;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DTABFormCheckInput : DBS5Obj {
 	mixin(H5This!("input", ["form-check-input"], null, true));
