@@ -1,7 +1,7 @@
 module layouts.tabler.components.forms.imagechecks.figure;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5ImageCheckFigure : DBS5Obj {
 	mixin(H5This!("span", ["form-imagecheck-figure"]));

@@ -1,7 +1,7 @@
 module layouts.tabler.components.forms.imagechecks.label;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5ImageCheckLabel : DBS5Obj {
 	mixin(H5This!("label", ["form-imagecheck"]));

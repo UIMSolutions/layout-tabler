@@ -1,7 +1,7 @@
 module layouts.tabler.components.forms.imagechecks;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 public import layouts.tabler.components.forms.imagechecks.figure;
 public import layouts.tabler.components.forms.imagechecks.input;

@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.forms.colorinputs.colorinput;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5FormColorinput : DBS5Obj {
 	mixin(H5This!("label", ["form-colorinput"]));

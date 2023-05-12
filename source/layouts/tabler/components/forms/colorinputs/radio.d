@@ -1,7 +1,7 @@
 module layouts.tabler.components.forms.colorinputs.radio;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5FormColorInputRadio : DBS5FormColorInput {
 	mixin(H5This!("input", ["form-colorinput-input"], null, true));

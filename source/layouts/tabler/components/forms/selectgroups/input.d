@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.forms.selectgroups.input;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5SelectgroupInput : DBS5Obj {
 	mixin(H5This!("input", ["form-selectgroup-input"], null, true));
