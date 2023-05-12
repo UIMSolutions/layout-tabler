@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.menucolumns;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5DropdownMenuColumns : DBS5Obj {
 	mixin(H5This!("div", ["dropdown-menu-columns"]));

@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.ribbons;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5Ribbon : DBS5Obj {
 	mixin(H5This!("div", ["ribbon"]));

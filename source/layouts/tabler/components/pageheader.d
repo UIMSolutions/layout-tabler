@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.pageheader;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5PageHeader : DBS5Obj {
 	mixin(H5This!("div", ["page-header"]));

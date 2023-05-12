@@ -1,7 +1,7 @@
 module layouts.tabler.components.buttons;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5ButtonIcon : DBS5Button {
 	mixin(H5This!("Button", ["btn-icon"]));

@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.footer;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5Footer : DBS5Obj {
 	mixin(H5This!("footer", ["footer"]));

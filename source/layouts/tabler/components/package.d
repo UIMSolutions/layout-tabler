@@ -1,7 +1,7 @@
 module layouts.tabler.components;
 
-public @safe:
-import layouts.tabler;
+public import layouts.tabler;
+@safe:
 
 // Packages
 public import layouts.tabler.components.accordions;

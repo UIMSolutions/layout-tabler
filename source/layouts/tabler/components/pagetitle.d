@@ -1,7 +1,7 @@
 ﻿module layouts.tabler.components.pagetitle;
 
-@safe:
 import layouts.tabler;
+@safe:
 
 class DBS5PageTitle : DBS5Obj {
 	mixin(H5This!("h2", ["page-title"]));
